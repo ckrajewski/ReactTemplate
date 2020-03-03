@@ -7,7 +7,7 @@
     "formatJS": "./node_modules/.bin/eslint --fix src/components/**/*.js src/reducers/*.js src/store/*.js src/actions/*.js src/App.js src/Utils.js server.js",
     "formatCSS": "./node_modules/.bin/stylelint --fix src/**/*.css src/App.css",
     "format": "npm-run-all --parallel formatJS formatCSS",
-    "test": "jest test/*",
+    "test": "jest ./tests/*",
     "dev-client": "webpack-dev-server --config ./webpack.config.js --content-base src --inline --hot",
     "dev-server": "nodemon --inspect server.js localhost 3000",
     "start": "npm-run-all --parallel dev-client dev-server"
@@ -90,8 +90,7 @@
   },
   "jest": {
     "rootDir": ".",
-    "testDirectoryName": "tests",
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "transform": {".*": "<rootDir>/node_modules/babel-jest"},
     "unmockedModulePathPatterns": [
       "react"
     ],
