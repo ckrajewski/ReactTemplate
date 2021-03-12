@@ -57,7 +57,7 @@
     "postcss-selector-namespace": "^2.0.0",
     "react": "^16.12.0",
     "react-currency-format": "^1.0.0",
-    "react-dev-utils": "^7.0.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.12.0",
     "react-places-autocomplete": "^7.2.0",
     "react-redux": "^5.0.7",
