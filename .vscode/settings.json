@@ -1,0 +1,66 @@
+{
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "workbench.tips.enabled": false,
+    "workbench.activityBar.visible": false,
+    "files.insertFinalNewline": true,
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.trimTrailingWhitespace": true,
+    "tslint.alwaysShowRuleFailuresAsWarnings": false,
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact",
+    ],
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.exclude": {
+        "**/*.js.map": true,
+        "**/*.snap": true,
+        "**/*lock.json": true,
+        "**/build/**": true,
+        "**/cypress/**/*.json": true,
+        "yarn.lock": true
+    },
+    "terminal.integrated.rendererType": "dom",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "prettier.printWidth": 80,
+    "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": true,
+    "typescript.extension.sortImports.sortOnSave": true,
+    "importSorter.generalConfiguration.sortOnBeforeSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "typescript.extension.sortImports.sortMethod": "path",
+    "typescript.extension.sortImports.pathSortOrder": [
+        "package",
+        "relativeUpLevel",
+        "relativeDownLevel"
+    ],
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "macros": {
+        "sortCSSandSave": [
+          "postcssSorting.execute",
+          "workbench.action.files.save"
+        ]
+      },
+      "eslint.workingDirectories": ["/Users/chris/boxApp/my-app"]
+}
